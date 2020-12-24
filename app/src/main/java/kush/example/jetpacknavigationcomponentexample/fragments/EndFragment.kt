@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.fragment_end.*
-import kotlinx.android.synthetic.main.fragment_start.*
 import kush.example.jetpacknavigationcomponentexample.R
 
 
