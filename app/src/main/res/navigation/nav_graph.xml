@@ -13,7 +13,10 @@
         <action
             android:id="@+id/action_startFragment_to_homeFragment"
             app:destination="@id/homeFragment"
-            />
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -22,6 +25,10 @@
         <action
             android:id="@+id/action_homeFragment_to_endFragment"
             app:destination="@id/endFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:popUpTo="@id/startFragment"
             app:popUpToInclusive="false" />
     </fragment>
@@ -33,6 +40,10 @@
         <action
             android:id="@+id/action_endFragment_to_startFragment"
             app:destination="@id/startFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:popUpTo="@id/startFragment"
             app:popUpToInclusive="true" />
     </fragment>
